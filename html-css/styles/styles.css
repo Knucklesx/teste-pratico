@@ -6,6 +6,26 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: gray;
 }
 
+h1 {
+  color: yellow;
+  text-align: center;
+}
+
+ol li:nth-child(odd) {
+  background-color: green;
+}
+ol li:nth-child(even) {
+  background-color: pink;
+}
+
+p a {
+  color: red
+}
+
+p a:hover {
+  color: blue;
+}
 /* SEU CSS AQUI */
